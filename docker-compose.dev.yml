@@ -7,8 +7,8 @@ services:
       - ./src/:/app/
       # - ./data/:/etc/wireguard
     ports:
-      - "51820:51820/udp"
-      - "51821:51821/tcp"
+      - "51830:51830/udp"
+      - "51831:51831/tcp"
     cap_add:
       - NET_ADMIN
       - SYS_MODULE
